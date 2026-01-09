@@ -85,9 +85,9 @@ body {
 .cert-img { border-radius: 15px; transition: var(--transition); filter: grayscale(20%); }
 .cert-img:hover { transform: scale(1.05); filter: grayscale(0); box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
 
-.project-card-v2 {
+.project-card-v2-4 {
   background: var(--primary);
-  background-image: url(/Images-logo/agence_voyage/page_connexion.png); 
+  background-image: url(/Images-logo/machine_learning_sport/sport.png); 
   background-size: cover; background-position: center;
   border-radius: 20px;
   height: 400px;
@@ -140,7 +140,35 @@ body {
   color: white;
   border: none; border-radius: 20px; transition: var(--transition);
 }
-.project-card-v2:hover { transform: translateY(-10px); box-shadow: 0 15px 35px rgba(0,0,0,0.3); }
+
+.project-card-v2-5 {
+  background: var(--primary);
+  background-image: url(/Images-logo/traitement_donnee_veto/veto.png); 
+  background-size: cover; background-position: center;
+  border-radius: 20px;
+  height: 400px;
+
+  overflow: hidden;
+  position: relative;
+
+  color: white;
+  border: none; border-radius: 20px; transition: var(--transition);
+}
+
+.project-card-v2-6 {
+  background: var(--primary);
+  background-image: url(/Images-logo/analyse_chaine_froid_bf/chaine_froid.png); 
+  background-size: cover; background-position: center;
+  border-radius: 20px;
+  height: 400px;
+
+  overflow: hidden;
+  position: relative;
+
+  color: white;
+  border: none; border-radius: 20px; transition: var(--transition);
+}
+.project-card-v2-1:hover, .project-card-v2-2:hover, .project-card-v2-3:hover, .project-card-v2-4:hover,.projet-card-v2-5:hover, .project-card-v2-6:hover { transform: translateY(-10px); box-shadow: 0 15px 35px rgba(0,0,0,0.3); }
 
 /* --- CONTACT --- */
 .contact-box { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); }
