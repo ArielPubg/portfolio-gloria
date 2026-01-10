@@ -168,7 +168,22 @@ body {
   color: white;
   border: none; border-radius: 20px; transition: var(--transition);
 }
-.project-card-v2-1:hover, .project-card-v2-2:hover, .project-card-v2-3:hover, .project-card-v2-4:hover,.projet-card-v2-5:hover, .project-card-v2-6:hover { transform: translateY(-10px); box-shadow: 0 15px 35px rgba(0,0,0,0.3); }
+
+.project-card-v2-7 {
+  background: var(--primary);
+  background-image: url(/Images-logo/bbibliotheque_django/bibliotheque.png); 
+  background-size: cover; background-position: center;
+  border-radius: 20px;
+  height: 400px;
+
+  overflow: hidden;
+  position: relative;
+
+  color: white;
+  border: none; border-radius: 20px; transition: var(--transition);
+}
+
+.project-card-v2-1:hover, .project-card-v2-2:hover, .project-card-v2-3:hover, .project-card-v2-4:hover,.projet-card-v2-5:hover, .project-card-v2-6:hover, .project-card-v2-7:hover { transform: translateY(-10px); box-shadow: 0 15px 35px rgba(0,0,0,0.3); }
 
 /* --- CONTACT --- */
 .contact-box { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); }
