@@ -6,7 +6,7 @@
 
         const reponse = await fetch('https://ipapi.co/json/');
         const donnees = await reponse.json();
-
+        console.log(donnees);
         // CREATION DE L'OBJET A ENVOYER
         const envoyer = {
             page:window.location.pathname,
@@ -16,7 +16,7 @@
         }
 
         // Envoi des donnees a google sheet
-        await fetch('https://script.google.com/macros/s/AKfycbwUMZ6jRifKFhTWGplIQt12yKdTFnXV4J7Jd9-cT0LRLXXLzc5H0BhKHpCOHix7oDVPIw/exec',{
+        await fetch('https://script.google.com/macros/s/AKfycbyTOidNpP7YuzJU7xw3t_FJmDomHHg719JIegx3NtZ12CDie3LvjClKHwQBKWKBvps8Ig/exec',{
             method:'POST',
             headers:{
                 "content-type":"application/json"
