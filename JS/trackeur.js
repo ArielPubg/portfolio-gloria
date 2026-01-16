@@ -16,7 +16,7 @@
         }
 
         // Envoi des donnees a google sheet
-        await fetch('https://script.google.com/macros/s/AKfycbzkpr26x1oTBYVnUuxMfOM_k22emmTkH4x2rwUtONJ1UZenvkpWgHzOV-81q9Z0IhuvTA/exec',{
+        await fetch('https://api-4pq6heenp-arielpubgs-projects.vercel.app/api/hello',{
             method:'POST',
             headers:{
                 "content-type":"application/json"
